@@ -735,11 +735,11 @@ sgp_calculator <- function(dist1, dist2, dist3, dist4, dist5, dist6, dist7, dist
   sgp <- sum(sg_vector)
   
   mydb <- dbConnect(RMySQL::MySQL(),
-                  host = "rk-first-mysql-cluster-do-user-13028418-0.b.db.ondigitalocean.com",
-                  dbname = "defaultdb",
-                  user = "doadmin",
-                  password = "AVNS_pmapXHtmecypq-48A2U",
-                  port = 25060)
+                  host = "xxxxxxxxxxxxxxxxxxxxxxxxx",
+                  dbname = "xxxxxxxxxx",
+                  user = "xxxxxxx",
+                  password = "xxxxxxxxxxxxx",
+                  port = xxxxxxxx)
   
   current <- fetch(dbSendQuery(mydb, "SELECT * FROM clu_sgp"))
   
@@ -765,11 +765,11 @@ sgp_calculator <- function(dist1, dist2, dist3, dist4, dist5, dist6, dist7, dist
 sgp_rankings <- function(){
   
   mydb <- dbConnect(RMySQL::MySQL(),
-                  host = "rk-first-mysql-cluster-do-user-13028418-0.b.db.ondigitalocean.com",
-                  dbname = "defaultdb",
-                  user = "doadmin",
-                  password = "AVNS_pmapXHtmecypq-48A2U",
-                  port = 25060)
+                  host = "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+                  dbname = "xxxxxxxxxx",
+                  user = "xxxxxxxx",
+                  password = "xxxxxxxxxxx",
+                  port = xxxxxxx)
   
   current <- fetch(dbSendQuery(mydb, "SELECT * FROM clu_sgp"))
   
