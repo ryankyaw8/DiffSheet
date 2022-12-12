@@ -7,6 +7,8 @@ R Shiny App to keep track of college golf team scores and statistics.
 
 Utilized by California Lutheran University Men's and Women's Golf Teams and University of California Riverside Women's Golf Team.
 
+CLU Diff Sheet: https://ryan8kyaw.shinyapps.io/CLUGolf/
+
 
 
 
