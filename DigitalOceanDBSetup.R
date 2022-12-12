@@ -2,11 +2,11 @@
 library(RMySQL)
 
 db <- dbConnect(RMySQL::MySQL(),
-                host = "rk-first-mysql-cluster-do-user-13028418-0.b.db.ondigitalocean.com",
-                dbname = "defaultdb",
-                user = "doadmin",
-                password = "AVNS_pmapXHtmecypq-48A2U",
-                port = 25060)
+                host = "xxxxxxxxxxxxxxxxxxxxxxxxx",
+                dbname = "xxxxxxxxxxxx",
+                user = "xxxxxxxxxxxxxx",
+                password = "xxxxxxxxxxxxxxx",
+                port = xxxxx)
 
 #### CLU SGP Table
 
